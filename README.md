@@ -1,11 +1,33 @@
 # MuchoCore · Geometry Dash 2.209 (Windows)
 
-Repository for the Windows GD 2.209 client built to connect to MuchoCore.
+**This is a PRIVATE repository for compatibility testing.**
 
-**Release status:** The complete game archive has **not** been uploaded yet.
+## Build status
 
-Before uploading the game files, make this repository **Private** in Settings → General → Danger Zone → Change repository visibility.
+- Full archive: `MuchoCore_GD2209_FULL.zip` (280,459,409 bytes)
+- SHA-256: `daf9ee10704893383e081c7427d2d1d8e97577cc4eea3c915b7d7f9bec48fb64`
+- Contains original game resources and DLLs plus a modified Windows x64
+  `GeometryDash.exe` that points API calls to `https://muchogdps.space`.
+- ZIP archive integrity and static executable patch checks have passed.
+- **GitHub Release asset NOT YET UPLOADED**. The connected GitHub integration
+  here cannot upload binary release assets.
 
-Once private, publish the tested archive as a GitHub Release asset named `MuchoCore_GD2209_FULL.zip` rather than committing the 280 MB ZIP to Git history. GitHub's ordinary Git objects have stricter size limits than Release assets.
+## Publish the complete archive
 
-The archive is a modified client for testing an independent server; actual compatibility must be verified in-game. Keep original proprietary game resources private and accessible only to authorized users.
+1. Download `MuchoCore_GD2209_FULL.zip` from your own ChatGPT deliverable
+   (or join its four `.001`–`.004` parts).
+2. Install GitHub CLI: `winget install --id GitHub.cli -e`.
+3. Download this repository's `UPLOAD_TO_GD.ps1` and `RELEASE_NOTES.md`
+   alongside the ZIP. On Windows, execute:
+
+   ```powershell
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\UPLOAD_TO_GD.ps1
+   ```
+
+The script verifies the archive size and SHA-256, checks that this repo is
+**private**, authenticates via the GitHub CLI, and publishes the complete ZIP
+to GitHub Releases. It refuses public repositories and does not overwrite an
+existing same-named asset.
+
+No game files have been committed to Git history. Avoid publicly distributing
+original proprietary game assets.
