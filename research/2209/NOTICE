@@ -1,0 +1,11 @@
+GD 2.209 Reversed Research Workspace
+
+This repository is an independent reverse-engineering workspace and not an
+official Geometry Dash project. Geometry Dash and related assets and binary
+code belong to their respective rightsholders. This repository contains only
+new tooling, original commentary and a derived technical inventory, and does
+not ship the game's executable or a full proprietary source reconstruction.
+
+Research references:
+https://github.com/IZKGMD/GMDmucho-core/blob/main/docs/GD_2209_NATIVE_EXE_FINDINGS.md
+https://github.com/IZKGMD/GMDmucho-core/blob/main/docs/GD_2209_COVERAGE.md

@@ -1,0 +1,21 @@
+# Proprietary inputs and generated analysis are kept LOCAL, not synced.
+*.exe
+*.dll
+*.apk
+*.so
+*.gpr
+*.rep
+*.bin
+*.ghidra
+*.gzf
+*.i64
+*.idb
+*.pdb
+*.class
+*.pyc
+__pycache__/
+/decompiled/
+/evidence/
+/work/
+*.log
+.DS_Store

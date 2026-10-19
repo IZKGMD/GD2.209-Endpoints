@@ -1,0 +1,374 @@
+{
+  "version": "2.209",
+  "snapshot": "2026-10-18",
+  "reference_repo": "IZKGMD/GMDmucho-core",
+  "registered_count": 27,
+  "total_count": 52,
+  "note": "Routing is not native compatibility; request/response format may remain provisional",
+  "endpoints": [
+    {
+      "name": "getGJEditorSounds",
+      "endpoint": "/database/getGJEditorSounds.php",
+      "category": "editor_audio",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "uploadGJEditorSound",
+      "endpoint": "/database/uploadGJEditorSound.php",
+      "category": "editor_audio",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "downloadGJEditorSound",
+      "endpoint": "/database/downloadGJEditorSound.php",
+      "category": "editor_audio",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "deleteGJEditorSound",
+      "endpoint": "/database/deleteGJEditorSound.php",
+      "category": "editor_audio",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "updateGJSoundDesc",
+      "endpoint": "/database/updateGJSoundDesc.php",
+      "category": "editor_audio",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJLevelControls",
+      "endpoint": "/database/getGJLevelControls.php",
+      "category": "level_data",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "uploadGJLevelControls",
+      "endpoint": "/database/uploadGJLevelControls.php",
+      "category": "level_data",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "deleteGJLevelControls",
+      "endpoint": "/database/deleteGJLevelControls.php",
+      "category": "level_data",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJDeathData",
+      "endpoint": "/database/getGJDeathData.php",
+      "category": "level_data",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "uploadGJDeathData",
+      "endpoint": "/database/uploadGJDeathData.php",
+      "category": "level_data",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJThreads",
+      "endpoint": "/database/getGJThreads.php",
+      "category": "threads",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJThreadMessages",
+      "endpoint": "/database/getGJThreadMessages.php",
+      "category": "threads",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJThreadMembers",
+      "endpoint": "/database/getGJThreadMembers.php",
+      "category": "threads",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJThreadInvites",
+      "endpoint": "/database/getGJThreadInvites.php",
+      "category": "threads",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "sendGJThreadMessage",
+      "endpoint": "/database/sendGJThreadMessage.php",
+      "category": "threads",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "updateGJThread",
+      "endpoint": "/database/updateGJThread.php",
+      "category": "threads",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "searchGJThreadMessages",
+      "endpoint": "/database/searchGJThreadMessages.php",
+      "category": "threads",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "claimGJNotificationReward",
+      "endpoint": "/database/claimGJNotificationReward.php",
+      "category": "notifications",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJNotifications",
+      "endpoint": "/database/getGJNotifications.php",
+      "category": "notifications",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "muteGJUser",
+      "endpoint": "/database/muteGJUser.php",
+      "category": "social",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "reportGJContent",
+      "endpoint": "/database/reportGJContent.php",
+      "category": "other",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "followGJUser",
+      "endpoint": "/database/followGJUser.php",
+      "category": "social",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "unfollowGJUser",
+      "endpoint": "/database/unfollowGJUser.php",
+      "category": "social",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJFollowing",
+      "endpoint": "/database/getGJFollowing.php",
+      "category": "social",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "syncGJFollowing",
+      "endpoint": "/database/syncGJFollowing.php",
+      "category": "social",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJSongUsage",
+      "endpoint": "/database/getGJSongUsage.php",
+      "category": "other",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJUserSearch",
+      "endpoint": "/database/getGJUserSearch.php",
+      "category": "other",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJAudioFilesize",
+      "endpoint": "/database/getGJAudioFilesize.php",
+      "category": "editor_audio",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "getGJContentStatus",
+      "endpoint": "/database/getGJContentStatus.php",
+      "category": "other",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "openedRegister",
+      "endpoint": "/database/openedRegister.php",
+      "category": "registration",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminGetUserHistory",
+      "endpoint": "/database/adminGetUserHistory.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminGetReportedContent",
+      "endpoint": "/database/adminGetReportedContent.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminClearReportedContent",
+      "endpoint": "/database/adminClearReportedContent.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminGetReportQueue",
+      "endpoint": "/database/adminGetReportQueue.php",
+      "category": "moderation",
+      "router_state": "registered",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminGetAbuseInfo",
+      "endpoint": "/database/adminGetAbuseInfo.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminGetAccountReview",
+      "endpoint": "/database/adminGetAccountReview.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminThreadAction",
+      "endpoint": "/database/adminThreadAction.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminDeleteUserComments",
+      "endpoint": "/database/adminDeleteUserComments.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminCommentBan",
+      "endpoint": "/database/adminCommentBan.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminUploadBan",
+      "endpoint": "/database/adminUploadBan.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminMessageBan",
+      "endpoint": "/database/adminMessageBan.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminFreezeAccount",
+      "endpoint": "/database/adminFreezeAccount.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminTrendingBan",
+      "endpoint": "/database/adminTrendingBan.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminNameLock",
+      "endpoint": "/database/adminNameLock.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminCommentUnban",
+      "endpoint": "/database/adminCommentUnban.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminUploadUnban",
+      "endpoint": "/database/adminUploadUnban.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminCloseCase",
+      "endpoint": "/database/adminCloseCase.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminMessageUnban",
+      "endpoint": "/database/adminMessageUnban.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminUnfreezeAccount",
+      "endpoint": "/database/adminUnfreezeAccount.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminTrendingUnban",
+      "endpoint": "/database/adminTrendingUnban.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "adminNameUnlock",
+      "endpoint": "/database/adminNameUnlock.php",
+      "category": "moderation",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    },
+    {
+      "name": "deleteGJComments",
+      "endpoint": "/database/deleteGJComments.php",
+      "category": "other",
+      "router_state": "missing",
+      "native_wire": "unverified"
+    }
+  ]
+}
