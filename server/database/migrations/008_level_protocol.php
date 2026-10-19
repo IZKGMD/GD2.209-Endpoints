@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    <<<'SQL'
+ALTER TABLE levels
+    ADD COLUMN audio_track SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER length,
+    ADD COLUMN demon TINYINT(1) NOT NULL DEFAULT 0 AFTER difficulty,
+    ADD COLUMN demon_difficulty SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER demon,
+    ADD COLUMN auto_level TINYINT(1) NOT NULL DEFAULT 0 AFTER demon_difficulty,
+    ADD COLUMN featured TINYINT(1) NOT NULL DEFAULT 0 AFTER stars,
+    ADD COLUMN epic SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER featured,
+    ADD COLUMN object_count INT UNSIGNED NOT NULL DEFAULT 0 AFTER epic,
+    ADD COLUMN original_level_id BIGINT UNSIGNED NOT NULL DEFAULT 0 AFTER object_count,
+    ADD COLUMN two_player TINYINT(1) NOT NULL DEFAULT 0 AFTER original_level_id,
+    ADD COLUMN coins SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER two_player,
+    ADD COLUMN coins_verified TINYINT(1) NOT NULL DEFAULT 0 AFTER coins,
+    ADD COLUMN requested_stars SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER coins_verified,
+    ADD COLUMN ldm TINYINT(1) NOT NULL DEFAULT 0 AFTER requested_stars,
+    ADD COLUMN song_id INT UNSIGNED NOT NULL DEFAULT 0 AFTER ldm
+SQL,
+];

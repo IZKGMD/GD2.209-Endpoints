@@ -1,0 +1,56 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    <<<'SQL'
+ALTER TABLE profiles
+    ADD COLUMN game_version INT UNSIGNED NOT NULL DEFAULT 22 AFTER account_id,
+    ADD COLUMN binary_version INT UNSIGNED NOT NULL DEFAULT 0 AFTER game_version,
+
+    ADD COLUMN color3 SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER color2,
+    ADD COLUMN special SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER color3,
+
+    ADD COLUMN cube SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER special,
+    ADD COLUMN ship SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER cube,
+    ADD COLUMN ball SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER ship,
+    ADD COLUMN ufo SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER ball,
+    ADD COLUMN wave SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER ufo,
+    ADD COLUMN robot SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER wave,
+    ADD COLUMN spider SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER robot,
+    ADD COLUMN swing SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER spider,
+    ADD COLUMN jetpack SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER swing,
+    ADD COLUMN explosion SMALLINT UNSIGNED NOT NULL DEFAULT 1 AFTER jetpack,
+
+    ADD COLUMN demon_info VARCHAR(255) NOT NULL DEFAULT '' AFTER explosion,
+    ADD COLUMN star_info VARCHAR(255) NOT NULL DEFAULT '' AFTER demon_info,
+    ADD COLUMN platformer_info VARCHAR(255) NOT NULL DEFAULT '' AFTER star_info,
+
+    ADD COLUMN bio TEXT NULL AFTER platformer_info,
+
+    ADD COLUMN last_ip VARCHAR(45) NULL AFTER bio,
+    ADD COLUMN last_played_at TIMESTAMP NULL DEFAULT NULL AFTER last_ip,
+
+    ADD KEY idx_profiles_stars (stars),
+    ADD KEY idx_profiles_creator_points (creator_points),
+    ADD KEY idx_profiles_game_version (game_version)
+SQL,
+
+    <<<'SQL'
+ALTER TABLE accounts
+    ADD COLUMN youtube_url VARCHAR(255) NOT NULL DEFAULT '' AFTER email,
+    ADD COLUMN twitter VARCHAR(64) NOT NULL DEFAULT '' AFTER youtube_url,
+    ADD COLUMN twitch VARCHAR(64) NOT NULL DEFAULT '' AFTER twitter,
+    ADD COLUMN discord VARCHAR(64) NOT NULL DEFAULT '' AFTER twitch,
+    ADD COLUMN instagram VARCHAR(64) NOT NULL DEFAULT '' AFTER discord,
+    ADD COLUMN tiktok VARCHAR(64) NOT NULL DEFAULT '' AFTER instagram,
+    ADD COLUMN custom_link VARCHAR(255) NOT NULL DEFAULT '' AFTER tiktok,
+
+    ADD COLUMN friend_requests_state TINYINT UNSIGNED NOT NULL DEFAULT 0
+        AFTER custom_link,
+    ADD COLUMN messages_state TINYINT UNSIGNED NOT NULL DEFAULT 0
+        AFTER friend_requests_state,
+    ADD COLUMN comments_state TINYINT UNSIGNED NOT NULL DEFAULT 0
+        AFTER messages_state
+SQL,
+];

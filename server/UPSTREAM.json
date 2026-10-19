@@ -1,0 +1,1421 @@
+{
+  "repository": "IZKGMD/GMDmucho-core",
+  "commit": "856a864745462ceac687d8963ebb1a7ed82e4002",
+  "files": [
+    {
+      "path": ".env.example",
+      "git_blob_sha": "a0875eb7d156e6a972895bf820adeb230b8f4500",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "ca200dcc8ff58e1c74642aa49d3476d8f6222667",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "VERSION",
+      "git_blob_sha": "9084fa2f716a7117829f3f32a5f4cef400e02903",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "bin/migrate.php",
+      "git_blob_sha": "8ccf0d02ab3b42fea4d80131aa51be23370d0855",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "composer.json",
+      "git_blob_sha": "c82a9cda350cf9439e0e2736f53e71992650f2d3",
+      "modified_for_packaging": true
+    },
+    {
+      "path": "composer.lock",
+      "git_blob_sha": "24bd5d0b3868e58a782564417139df00dcdcc163",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "config/cloudsave.key.example",
+      "git_blob_sha": "fe8452f184aef55c7ea2fc1acf5a53aa4ac3838f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "config/mucho_v71.php",
+      "git_blob_sha": "8ac1c20026b85cdde3f41101a9a2a18c187bf899",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/001_auth.php",
+      "git_blob_sha": "d6532b86a4a7b6b3c479bfad754adb5cae18619f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/002_profiles.php",
+      "git_blob_sha": "efccd6f2010d92be83a808b6df7c4101a7f5ddfc",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/003_levels.php",
+      "git_blob_sha": "1bddcd7a353b73b31093eb6ceee01f33360a6797",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/004_custom_difficulties.php",
+      "git_blob_sha": "4c74e0f854f400891896e77a11029c1609fa518e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/005_custom_ratings.php",
+      "git_blob_sha": "7633b75773bf25227321e090634d39c7cd4aeb10",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/006_audit_log.php",
+      "git_blob_sha": "44099402e95cb23bef8b8f22aa950e00386f5a2b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/007_account_auth.php",
+      "git_blob_sha": "b9ce5c05df0b82f198f0758ce38e7576868a9007",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/008_level_protocol.php",
+      "git_blob_sha": "00cfae85987b5eb7dbc411e614d9a0575d6e368d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/009_level_transfer.php",
+      "git_blob_sha": "9b7f3ac06c24ebffa71eb336b8e33d2e2766f310",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/010_kernel.php",
+      "git_blob_sha": "3fc482a601fd253afa54164e65353f9c26341863",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/011_user_core.php",
+      "git_blob_sha": "2a481c1c034293c51a5c39baa2621831646e355e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/012_interactions.php",
+      "git_blob_sha": "e1dc6fb88e0e5ae2e74916ad3bb705892f2187b6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/014_moderation.php",
+      "git_blob_sha": "1f7e7c5f10812ec9b343e28df037bfbf49fe15ff",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/015_songs.php",
+      "git_blob_sha": "2b0ee82f338f6cb8d978e215fa49276328ba966b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/016_profile_color3_signed.php",
+      "git_blob_sha": "dc62e8e342c979f77b7ef8a188896da9a48cc697",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/017_account_recovery.php",
+      "git_blob_sha": "b832e0a344a3822882737e25fd43d93908369eb6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/017_level_unlisted2.php",
+      "git_blob_sha": "d0aeed9d5e11075673f3127458ee88107c7313b4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/018_profile_protocol_state.php",
+      "git_blob_sha": "a475bcb0fbe2009c5af6290e455f4ca971d2dd44",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/019_level_list_suggestions.php",
+      "git_blob_sha": "6c0351b81044e8dd3a46fb4a8bad812ac3c74224",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/020_clans.php",
+      "git_blob_sha": "abe768f92675f30d773fd2098337cc6ff3bd7f34",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260820_001_hardening.php",
+      "git_blob_sha": "fdb2e920df4518ba16db036d590a9fb981cfd0cc",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260922_001_endpoint_hardening.php",
+      "git_blob_sha": "f5b05f68a1fd8e214ec6aece02bc27c2e78a7db7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260923_001_cloud_save.php",
+      "git_blob_sha": "22d14f0cee819f70e2d022dac4d6b1ed4eb769ab",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260923_002_game_roles.php",
+      "git_blob_sha": "216bc51b92563fb3ecd24692278df41972848426",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260923_003_retire_duplicate_roles.php",
+      "git_blob_sha": "592d96f4ec7c874ae1713225988392ccfe1b2735",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260923_004_branding.php",
+      "git_blob_sha": "b6976c1f24356004d945a5e6a550a1e79ccea3d6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260923_005_secret_rewards.php",
+      "git_blob_sha": "94429e6d914b4d3b6f01c2c4393dbb7858e58576",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260924_001_legacy_19_upload_sessions.php",
+      "git_blob_sha": "b3e8cca8336d4ea402de0052dde68e5a19e2bd5f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260924_002_integrity_hardening.php",
+      "git_blob_sha": "6744c0d393034165815268b4916ad4803eb331a2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260924_003_v71_runtime_schema.php",
+      "git_blob_sha": "3a416d18471434e3440bc5d0bf3300ab59ff6fb4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260924_004_score_integrity.php",
+      "git_blob_sha": "27cef5e4df0312ee12763012a2b893dcfd3b1952",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260924_005_comment_integrity.php",
+      "git_blob_sha": "8e13302d4d60a9184b3bec700f120fbc210db662",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260924_006_game_role_compatibility.php",
+      "git_blob_sha": "bb7bc3f0ba1f227bf82a57c9520cf7b857dc78f8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_000_admin_users.php",
+      "git_blob_sha": "68d2176c23cfbf728544900af1e238d8a3d3c75d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_001_admin_access_keys.php",
+      "git_blob_sha": "b597ee39c6a1d434259f4663427e65b1450e90e8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_001_branding_social.php",
+      "git_blob_sha": "43e3883bf2bef9670375f9d473738f4fe2b49166",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_002_admin_recovery_codes.php",
+      "git_blob_sha": "565be58bb0427f0037dff13c21a30f4482db1bb4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_003_like_identity_integrity.php",
+      "git_blob_sha": "d805758e988162aa999c47886bc21f020557775b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_004_legacy_10_identities.php",
+      "git_blob_sha": "d05149d50cde33a87cc9cfa67760eb73fd136ab8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_005_score_integrity_events.php",
+      "git_blob_sha": "cb432bc95f0f3f779fbba9cbeccacd4e411a6add",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_006_cvolton_import_maps.php",
+      "git_blob_sha": "3532d95f935e938d0de2058317028f7559d8a303",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_007_admin_passkeys.php",
+      "git_blob_sha": "bb614ea17fbea9ebf34680351f62649f66c6444f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_008_remove_admin_access_keys.php",
+      "git_blob_sha": "828745ccfaad49fe7e930bdd824cd54fa573694f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_009_admin_password_setup.php",
+      "git_blob_sha": "cb478f9da4873e92ba1eb46bd150579011e25227",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260925_010_admin_rbac.php",
+      "git_blob_sha": "0feb36226f7be2073746948d88978ff861aa52a3",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260926_001_plugin_admin.php",
+      "git_blob_sha": "efb1cb5412caf0b94c6f23f8d120f04b72eb715a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260926_002_clans_v2.php",
+      "git_blob_sha": "a2e43a41ba0337d2399f2998729e1a02ebeacdb5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260927_001_security_storage.php",
+      "git_blob_sha": "68298dbbcb480565b3de08b5a77c4d54166228b7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260928_001_intelligence_scale.php",
+      "git_blob_sha": "a7d5157b7ae80608ab33cc9b295eef4577ffaf40",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260928_002_auth_session_grants.php",
+      "git_blob_sha": "62fd824a9038b2753c437b9e897c181e3c34c566",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260929_001_content_packs.php",
+      "git_blob_sha": "0dedbae844f845b03bd138551b2191565193e9de",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20260929_002_mappack_unbounded_levels.php",
+      "git_blob_sha": "8987a18735e835d6993e8e077a93078ac6436013",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261007_001_level_download_dedup.php",
+      "git_blob_sha": "473356fb56cba4cdf4dd74fde16bc3b8468c4c6b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261010_001_appearance.php",
+      "git_blob_sha": "91158c04ddbaf588119acd56e47f323ca10dd600",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261010_002_clan_quests.php",
+      "git_blob_sha": "332b987741168704f4859c871b3a3eb900e9685c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261011_001_profile_media.php",
+      "git_blob_sha": "6515845099119aa4b31d5598f912763b077b2096",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261016_001_news_board.php",
+      "git_blob_sha": "e8a036ec0e7270d6300861b4d66ebc7a5dd64267",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261016_002_native_news_state.php",
+      "git_blob_sha": "cf0ad4fc770186e5b86d4538026520f3bd57b1c9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261016_003_gd2209_social.php",
+      "git_blob_sha": "76bbe8088d23183fd5596d04bc633e48a57f8515",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261016_004_gd2209_notifications.php",
+      "git_blob_sha": "6a6b4c9cff4d2e370ae2705248f9e2f2b6e44e18",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261016_005_gd2209_threads.php",
+      "git_blob_sha": "d84a15c85f33bf83dffdad495fae380300a82e76",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261016_006_gd2209_level_state.php",
+      "git_blob_sha": "61eb0f67097fe5d9c118667c2d4261fb17b418d0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261016_007_gd2209_editor_sounds.php",
+      "git_blob_sha": "a0a9eba9158a93d7b9c368f30a8befc030830c75",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261017_001_news_media.php",
+      "git_blob_sha": "c25d520fb95420429fb6e88e2cfc817e74be0367",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261017_002_gd2209_report_queue.php",
+      "git_blob_sha": "14a46a57dade8c6b9640003f2526a2a6bf159f5c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261017_003_gd2209_account_report_cases.php",
+      "git_blob_sha": "90a56b344cb466db4e4a3381d4d271a7de3b9c53",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261018_001_gd2209_case_actions.php",
+      "git_blob_sha": "894c05a94969415b0dac4bd6b7dee99cba658edf",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261018_002_gd2209_restrictions.php",
+      "git_blob_sha": "22e2beaf2401ab3dfb838a904aaf54b63672ec99",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261018_003_gd2209_registration_opens.php",
+      "git_blob_sha": "5babfc6b624c840bca6fec9be325283e6c35c11e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "database/migrations/20261018_004_gd2209_native_threads.php",
+      "git_blob_sha": "7aaa509ed3b0af62bff2b538c865f8628a012fb4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "public/.htaccess",
+      "git_blob_sha": "35c7aed3c1916995473b343bc89808cde47d964a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "public/index.php",
+      "git_blob_sha": "ac09c0bac65928fa4816516f7a5dd083fdac66c9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "resources/plugin-catalog.json",
+      "git_blob_sha": "cc90b7effcb7abda8d802abb3ef14587a7d84c7d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Account/AccountAuthenticator.php",
+      "git_blob_sha": "15beaf47b8ef941582a9904bca3c191c2ca65d81",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Account/AccountController.php",
+      "git_blob_sha": "ee96991fe3e57ceb0e165ad60b7284c40ffcc89a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Account/AccountRepository.php",
+      "git_blob_sha": "cf0cc9948266f1786834a7287b543a5da9402794",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Account/AccountService.php",
+      "git_blob_sha": "510f13f9033391c53a4e8922f3fd604454735ef0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Account/RecoveryController.php",
+      "git_blob_sha": "d501a565f5025de119231625a9206246e55e1868",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Account/RecoveryRepository.php",
+      "git_blob_sha": "0fffae3ed937ec6505b08c1e9dd4d96da7bc6cc5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Account/RecoveryService.php",
+      "git_blob_sha": "5f03110a321df45d9e27117185ce05d303c4d6e8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Admin/AdminPasskeyService.php",
+      "git_blob_sha": "8c42efd0252bf57feedbd0419989123cefe64713",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Admin/AdminRbac.php",
+      "git_blob_sha": "518d2d27f598464de8b5824afa935cb819834419",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Admin/ClanAdminService.php",
+      "git_blob_sha": "d0ed9c1f74462b5677f19e8e2eb4bccc758d222d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Admin/LevelAdminService.php",
+      "git_blob_sha": "8cf4bc2235c5cd27809a9ee12d2e742fe54eb40a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Appearance/AppearanceController.php",
+      "git_blob_sha": "12a19aa78c09c37136dfee6babbb8d6fef9e1492",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Appearance/AppearanceService.php",
+      "git_blob_sha": "b0495a6bf2bf8b8230d44b0592e3b56fe35faeba",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Appearance/ProfileImage.php",
+      "git_blob_sha": "ad357daf86aa7cdcfb444a054efee18e4b6294f7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Appearance/ProfileMediaController.php",
+      "git_blob_sha": "4cc8e94f91609b578b45b3fa7a42e8d04143e44f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Appearance/ProfileMediaService.php",
+      "git_blob_sha": "8a2d26944b541094a478d3f4ead17d313401ef34",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Artist/TopArtistController.php",
+      "git_blob_sha": "f7a83ee1994307233780154bfb36fff7c2cb3920",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Artist/TopArtistRepository.php",
+      "git_blob_sha": "cdbec393ad6e79f77dca3cb5e3e4da58f656f1d5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Artist/TopArtistService.php",
+      "git_blob_sha": "bb8cc0f3daa09422c5bbc6babbd1179128d3836f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Backup/DatabaseBackupService.php",
+      "git_blob_sha": "b762d33b5ba29809e3a0d94c28c1dd4c5f81126e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Backup/DatabaseBackupVerifier.php",
+      "git_blob_sha": "5d870f84f718f25ea8ac04ac267563df4631a784",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Branding/BrandingService.php",
+      "git_blob_sha": "bd919b9026b4bfd40dd43da2aaa3e87cc8ac4f30",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Cache/CacheInterface.php",
+      "git_blob_sha": "ba91b0b2368520728d3c45e7ab291d294bb1e917",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Cache/CacheManager.php",
+      "git_blob_sha": "c265aeed44e540f313eda99385be6e50d8ef11ad",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Cache/DatabaseCache.php",
+      "git_blob_sha": "76cd46ef8e8a42326404cd8d9c3ea949048aced1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Cache/NullCache.php",
+      "git_blob_sha": "ce693cc866e2fdef194d1e6443bf7a5a15fa7e96",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Cache/RedisCache.php",
+      "git_blob_sha": "a399eb1d680937d81036fd0d15d74a786eb5a486",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Clan/ClanController.php",
+      "git_blob_sha": "08ae6892f00313fce022738017ca1ace74d4e9af",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Clan/ClanQuestController.php",
+      "git_blob_sha": "3a24922778752a41f6f34e93eed708940a2a6435",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Clan/ClanQuestRepository.php",
+      "git_blob_sha": "4e126e278ddea7e015faeaa1e4a205fc077b4fe9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Clan/ClanRepository.php",
+      "git_blob_sha": "94b8201e13578303b50af9654b2edb8af4ccaa32",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Clan/ClanService.php",
+      "git_blob_sha": "72f2c2893cac414566e1da1a81ae1f349c7b84de",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Client/AndroidClientPatcher.php",
+      "git_blob_sha": "6a0a281949d01489c68df16db1e7cbea325a79b7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Client/ClientBridgeController.php",
+      "git_blob_sha": "08340ff3719631d9e98da1ffeaf609b9129c8550",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Client/ClientFeatureRegistry.php",
+      "git_blob_sha": "3da5742ba065d065ff20398dd9cfcbbe27294c4a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Client/DeploymentClientPack.php",
+      "git_blob_sha": "898505e2c9f4169d2403372d0dbc67ea04e15905",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Client/Gd2209Binary.php",
+      "git_blob_sha": "41af529023f79bd260d7ee75265da1785ff50277",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Client/WindowsClientPatcher.php",
+      "git_blob_sha": "58b68c2c899396fc6766d694df53a9fbee6aea04",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/CloudSave/CloudSaveController.php",
+      "git_blob_sha": "304ac324ae76fec3cdb0c5b8aa4ea9fe06cece04",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/CloudSave/CloudSaveRepository.php",
+      "git_blob_sha": "ca364e1597b80b52dfc1aad9571a0a2db2bc0299",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/CloudSave/CloudSaveService.php",
+      "git_blob_sha": "985c7f95ee3dfe8949e93f9ed9cbedc6757533e6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Comment/CommentHistoryController.php",
+      "git_blob_sha": "49fbf069ca6f967930c2f216342c5a514da5f212",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Comment/CommentHistoryRepository.php",
+      "git_blob_sha": "ced4d0e8182954467c368ae9ba2cf2dd186de751",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Comment/CommentHistoryService.php",
+      "git_blob_sha": "04fb11acb01a0682d7bca6ae09266965901bae07",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Community/PublicVisibility.php",
+      "git_blob_sha": "850d988f541638d55f7122da822c447852defdbf",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Compatibility/ClientVersion.php",
+      "git_blob_sha": "25565dcd9c81a948317592fc2ad0d2c90ce417f6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Compatibility/CompatibilityProfile.php",
+      "git_blob_sha": "7eb0756af5af999df5c7f46cf6b28f06183f6e3c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Compatibility/DiscoveryController.php",
+      "git_blob_sha": "045aa14f60b6b74879f3998f8d7ca7cdc9041c37",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Compatibility/Gd2209UtilityController.php",
+      "git_blob_sha": "de030d9ba359859e896dcf9a79152ee2d0103b3a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Compatibility/Gd2209UtilityService.php",
+      "git_blob_sha": "b8a187e18020883cb56aa4bab5049170913cf10a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Compatibility/Legacy10IdentityController.php",
+      "git_blob_sha": "798eca8855c4400d27f2c8d4b8a8fbe819139f02",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Compatibility/Legacy10IdentityService.php",
+      "git_blob_sha": "6cc689189e03abece9b70baf3460cfb1069f45fd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/Application.php",
+      "git_blob_sha": "de5ef0df60f60b24c4509b5db64e8a51abe84e5b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/Environment.php",
+      "git_blob_sha": "ab8094309782348f07ad191437edbd567fb9b0c7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/Exception/AuthenticationException.php",
+      "git_blob_sha": "a79aa93fae23cefb550e3fd2c210c0a41f567492",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/Exception/NotFoundException.php",
+      "git_blob_sha": "9ed762f634396c547bed216df8a64e2fad16e22a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/Exception/ValidationException.php",
+      "git_blob_sha": "837394fd11f8f5a2156315afad5e032f6c72e4fd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/HealthService.php",
+      "git_blob_sha": "7e773f1943d7a1cf437dd392531c5f74e0b8f251",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/Logging/Logger.php",
+      "git_blob_sha": "8f31e0361972815b91d112da6e44050919d2f29e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/RequestContext.php",
+      "git_blob_sha": "b08295190fbbc93b6686fbe3562b3ef023303cb4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/SystemRepository.php",
+      "git_blob_sha": "698550acfcbd81f3f23a7407c1f3e3ed45747c13",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Core/Validation/Validator.php",
+      "git_blob_sha": "adfd9ba43b86897860bf22b096f9dbb71e52266e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Database/Database.php",
+      "git_blob_sha": "7493fb4bcc4bebe0ad754123aa4accac4539ea4d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Database/Migration.php",
+      "git_blob_sha": "13d426f8dd651820e6d7f5ba156b8688eda431f2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Database/Migrator.php",
+      "git_blob_sha": "5cec8ce5ffc5ed9da205b0bb15e45fb68e36a2d2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Deployment/DeploymentDetailsExporter.php",
+      "git_blob_sha": "f7931843e81da207919b35ab3bca5de33ae0efc1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Diagnostics/ClientTrace.php",
+      "git_blob_sha": "15349d2154188086566d6ebd225457e343cf08bd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Http/ClientIp.php",
+      "git_blob_sha": "985e33111c73dca3d2538af331c5fabbcf99538f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Http/Request.php",
+      "git_blob_sha": "2c90bf5b867896216ce5bef241245054909bff20",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Http/Response.php",
+      "git_blob_sha": "45fa46d286dda32a81cfaf8f8236c08e50ee877f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Integration/WebhookDispatcher.php",
+      "git_blob_sha": "9be5306768baf2c807ed321889116a2032c95052",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/CommentController.php",
+      "git_blob_sha": "775ef1e7b02c26a5a88a73e79c14d641b606672f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/CommentRepository.php",
+      "git_blob_sha": "27f631949d3e604be9d9eafc8a077fb05522e71d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/CommentService.php",
+      "git_blob_sha": "1e32483b68159cb6d6bb8cfb4fdd1ec420c6fd4d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/InteractionController.php",
+      "git_blob_sha": "e7af0115146eeaf126c2a1a784735f010e475f57",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/LikeController.php",
+      "git_blob_sha": "8bddf1cfc03b50e2f7bbbfac59b5876b94374b0c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/LikeRepository.php",
+      "git_blob_sha": "6d51938236c5d216dda752d8310f09429484698c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/LikeService.php",
+      "git_blob_sha": "b77e4ecacce21b3f8ffb6a6ccf2fb8d0fa8eb4ea",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/RatingRepository.php",
+      "git_blob_sha": "94b0193c3f7711a934d3b87649a351b7931d463a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/RatingService.php",
+      "git_blob_sha": "3a25dc34a9aba647053fdf3f377d2f7f3caaafc0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/RewardsController.php",
+      "git_blob_sha": "e85fd2e2f21a0d30bc8a8f479ea4eb4a7cfae9e5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/RewardsRepository.php",
+      "git_blob_sha": "400eb92de2aef040333818b1273f6102ff8f98ea",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Interaction/RewardsService.php",
+      "git_blob_sha": "74cc37fd1fb13d34145ae4ef3da0641cce5e0eb7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Job/JobQueue.php",
+      "git_blob_sha": "221be76d5f36aa6960b9be183260c8da023a9c87",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelController.php",
+      "git_blob_sha": "e374aaf6577df515d9a14ae0a928c0af3e334aff",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelDownloadTracker.php",
+      "git_blob_sha": "e51e21034f2600de7b15a8af584602bae6b66cbc",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelRepository.php",
+      "git_blob_sha": "682907641405372f09618df95104e89f1a852f80",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelRevisionService.php",
+      "git_blob_sha": "0da5c81acccfe6d73b5b3c29573ca32056133e72",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelService.php",
+      "git_blob_sha": "c939bf5413fe8900eae62a721d77472ff2374197",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelTelemetryController.php",
+      "git_blob_sha": "75c588c160f45959ab0277f3bc8a097ceedf7ddd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelTelemetryService.php",
+      "git_blob_sha": "f2cfaf09441fa0893bade5290a40b0056489680f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelTransferController.php",
+      "git_blob_sha": "31ba4a6e85ab0ace1c5b4d1e9ef0517a8d33aea1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelTransferRepository.php",
+      "git_blob_sha": "f956775c98ba36b084e92413954afa4286f9f47f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelTransferService.php",
+      "git_blob_sha": "fcbc644ed7fba28e7cc6ba794a6f7e9db9cc35f8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Level/LevelValidator.php",
+      "git_blob_sha": "f8a0f8df050da1f5afea4458723f2f590d3cd441",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/LevelList/LevelListController.php",
+      "git_blob_sha": "b1edc364e2bd78fc1663bbfc17804e26712111d2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/LevelList/LevelListRepository.php",
+      "git_blob_sha": "82ab548038246f47eb159e07067f27686dd85f93",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/LevelList/LevelListService.php",
+      "git_blob_sha": "aa66ebd2fa1b0f17496597bf9a49814bf7e58d5a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Migration/CvoltonDatabaseImporter.php",
+      "git_blob_sha": "f90f420fa6887d300b686dd0bd1a23c54c09c7c0",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Migration/CvoltonMigrationAdapter.php",
+      "git_blob_sha": "887095b1942c5ea67eface6d9a1b1cf7169d018f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Migration/MigrationAdapterInterface.php",
+      "git_blob_sha": "3fa2b74205a95a87b668978f51d1349df9668230",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Migration/MigrationAdapterRegistry.php",
+      "git_blob_sha": "fed1163eec435ff2be2049113d9ab06e773e0845",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Migration/SharedMigrationService.php",
+      "git_blob_sha": "0198ba64a417ac190f0e1c64f947540b8faa8138",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Migration/SourceDetector.php",
+      "git_blob_sha": "3e065b14d6520f20634116a906151ad333d0978c",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/Gd2209CaseController.php",
+      "git_blob_sha": "097ca410097aedb0d6e3884387356070c2b7b0f2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/Gd2209CaseService.php",
+      "git_blob_sha": "9d534c358c7cb17b1b436153d53955be4841c36b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/Gd2209ContentActionController.php",
+      "git_blob_sha": "388d7a06aa0bfa63f3e231235f930362c062ec69",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/Gd2209ContentActionService.php",
+      "git_blob_sha": "dd684ed01064396dbe8df79ac00c8d461b67c7e7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/Gd2209Restrictions.php",
+      "git_blob_sha": "d40844c1038aac3639c2149c8c59bf954292a906",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/Gd2209SanctionController.php",
+      "git_blob_sha": "958a28a1150c2e7b7232f47eb5a9f470fb91351a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/Gd2209SanctionService.php",
+      "git_blob_sha": "408773832c1496ecf383461bcbc5b8665e018e39",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/ModerationController.php",
+      "git_blob_sha": "317b643bf8861ca3740bac9774c5dbfff60ff10d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/ModerationRepository.php",
+      "git_blob_sha": "9d290358e2fe875c09be08e94dd9a565a4f5f0dd",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/ModerationService.php",
+      "git_blob_sha": "e8251eb35e839b5ddb3b72d9d1d4ee54aff1aa51",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/ReportQueueController.php",
+      "git_blob_sha": "79f9ed3e0598d6bca5618bc849a7a96f84457d30",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/ReportQueueRepository.php",
+      "git_blob_sha": "3c1c97ae14693b814cffe7b6385ee4d8f06f2e7e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Moderation/ReportQueueService.php",
+      "git_blob_sha": "cb902d2c4675ffa71135cf881ce20343ecbfbf2f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Monitoring/AlertService.php",
+      "git_blob_sha": "dc50ee748a79bdf93134482742dac2068b2b1242",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Music/EditorSoundController.php",
+      "git_blob_sha": "ef9cef8ab878bf9c56606d4894cea2a3e1aab018",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Music/EditorSoundService.php",
+      "git_blob_sha": "7c08cadf7cbc1945cedd499d01ffefb5934ecc3b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Music/SongController.php",
+      "git_blob_sha": "e2909710afbfffd11d6b839b5a245f7c089c0d6b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Music/SongRepository.php",
+      "git_blob_sha": "e06bc3b81d5d6cebe3be40ea8eb0beea8489a31d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Music/SongService.php",
+      "git_blob_sha": "2815292822d8967e3bebb800d05b99eae98eb025",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Music/SongUsageController.php",
+      "git_blob_sha": "fe7109f040b3e5e506f6d02c1d501e4220074641",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Music/SongUsageService.php",
+      "git_blob_sha": "bffcac8431e3461e1c4567a315c935fdbaf0f479",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/News/NativeNewsFormat.php",
+      "git_blob_sha": "510aa4aba44807e4ab4dee1f58a22be49108dd4b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/News/NewsImage.php",
+      "git_blob_sha": "fad58d241b511d9ce3c76fbb2ff20adac1fc40e4",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/News/NewsImageResponse.php",
+      "git_blob_sha": "5c72ffd33c71d43e894a5011e06710c021982195",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/News/NewsMediaService.php",
+      "git_blob_sha": "450bb344a25780b1276cf3622bdc04bfbc0ceff8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/News/NewsService.php",
+      "git_blob_sha": "ce48c4182f50be5490176cdd2c8d37b0ffc56875",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/News/NewsValidationException.php",
+      "git_blob_sha": "b3b49d11702b3e2d6cebe0459f3ca4a090ad1ee1",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/News/YouTubeVideo.php",
+      "git_blob_sha": "04be35841759bdb47f6bfec4a92f96e1234674f9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Plugin/PluginCatalog.php",
+      "git_blob_sha": "4fd625ccd504cef97f47fd2af3dd9cbaf81bbbf7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Plugin/PluginContext.php",
+      "git_blob_sha": "1f948b1a2e2bf9fc02cddca1c472090a9f4893ca",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Plugin/PluginEventBus.php",
+      "git_blob_sha": "002c7a9111f5bb002b596dc8b5e88148e2aa1568",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Plugin/PluginInterface.php",
+      "git_blob_sha": "3622fb45bb95bca16b8da0871f136b848d18539f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Plugin/PluginManager.php",
+      "git_blob_sha": "8f2a3b6066641a2adb5a304915fd049a9f039d62",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/Gd2209ThreadWire.php",
+      "git_blob_sha": "b3803b153d5f5d0ecc0b5b314fe9138ecfe40c24",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdCommentEncoder.php",
+      "git_blob_sha": "634d397a0f0754cc1a8736808ac0a1226fbf581b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdHash.php",
+      "git_blob_sha": "b6ecd870cfb8021b9ad7c65a78b6e8b3722b0add",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdLegacyText.php",
+      "git_blob_sha": "c41c77872b81e3a107f2d78f939709bd314cc568",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdLevelDownloadEncoder.php",
+      "git_blob_sha": "f4ba3a84cb062cad49e5770d8c546bb948011e18",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdLevelListEncoder.php",
+      "git_blob_sha": "11cd931db189d7c41c23ac9da72635185179aead",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdMessageEncoder.php",
+      "git_blob_sha": "ab96493028c9d361bf5e25ee35400ad23c03b2c2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdRelationshipEncoder.php",
+      "git_blob_sha": "6e9cf8376816d195fea824d8bcb0445798f4507e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdSongEncoder.php",
+      "git_blob_sha": "4d4dda71f051a981a1777b6156e59424a788ab8f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdUserEncoder.php",
+      "git_blob_sha": "741a7ef865e6b0b51a060fdd72e98a2bcff051a8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/GdXor.php",
+      "git_blob_sha": "d9f7eed3ce941b5567784aa4345cb4a78dd7f891",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Protocol/ProtocolText.php",
+      "git_blob_sha": "232f8d20384b38cec3109b98476b7ad2b146a2f6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Release/ReleaseService.php",
+      "git_blob_sha": "dcc59b344625f98fbcb4305a36ec1d2a2c611a48",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Release/V110EndpointGate.php",
+      "git_blob_sha": "4029ead9bb64b2c81de781c2e7c36bd4cb449a55",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Routing/CompatibilityAliases.php",
+      "git_blob_sha": "c915d6cd93d733a34bfc8a6519149509a5d4a34d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Routing/Router.php",
+      "git_blob_sha": "4e3139b4e56294d620857b07e90b55f4e94c5eac",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Score/LevelScoreController.php",
+      "git_blob_sha": "b84b89f4b9f03495c27cebfab593497485fea327",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Score/PlatformerScoreController.php",
+      "git_blob_sha": "8a0353adfc0b3c6282eb472da71b8dbda9787b6e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Score/ScoreIntegrity.php",
+      "git_blob_sha": "9e9ee7e7f1b26082715f7ee95ccbd8a4bee8d7de",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Search/LevelSearchIndexer.php",
+      "git_blob_sha": "159893192d11a1f26144c5cf49c62b2e3f344393",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/AbusePenaltyStore.php",
+      "git_blob_sha": "91d33ac0d30eec6d3212c432d6025ea706d68681",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/DatabasePenaltyStore.php",
+      "git_blob_sha": "52fcf5812ee6d13f1168e33b91feb655b7992a62",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/DatabaseRateLimiter.php",
+      "git_blob_sha": "92dc2e28ed6da55eee560f57582b625e119aa35e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/MuchoProtect.php",
+      "git_blob_sha": "c41fb5e977442387d8422253cbb6bfb9c82d731a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/PenaltyStoreBackend.php",
+      "git_blob_sha": "99941ac96928d7e3380d29e87c86b38a8cf948bc",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/RateLimitBackend.php",
+      "git_blob_sha": "207e9797fcfb9267833bf1a328282a22d06bcd56",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/RateLimiter.php",
+      "git_blob_sha": "ff69807c3bd4203a2eb519de6aaa4158e903eff9",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/SoftAntiBot.php",
+      "git_blob_sha": "96470f8d476f9d93481680e2be5875d18452d916",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Security/Turnstile.php",
+      "git_blob_sha": "61a7086c39cb91a27810a71e8824bffce8c8a9ec",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/FollowingController.php",
+      "git_blob_sha": "d50168bc7904abef1ac2276e836347f5019a9ca7",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/FollowingService.php",
+      "git_blob_sha": "5ff83e74461450741c8086f738bcc0fe9d3f5ec8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/Gd2209NativeThreadOperations.php",
+      "git_blob_sha": "901457043d00c6cfe16cf469df59c7e17f4ec500",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/Gd2209ThreadActionService.php",
+      "git_blob_sha": "aa21b28d58f3099c3c19088d4493d6c7569da09e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/MessageController.php",
+      "git_blob_sha": "c2c0fdbafa93b4fd8ffbcc9b757231102637fb2a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/MessageRepository.php",
+      "git_blob_sha": "26e2b85578f2abbbc79ce54c2474f026a3c4e370",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/MessageService.php",
+      "git_blob_sha": "0297a46102ff3456e4864117eae7a82a2aa3661a",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/NotificationController.php",
+      "git_blob_sha": "ef0bca13ac42ca353a2953da1f8bc53946071dc5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/NotificationService.php",
+      "git_blob_sha": "b9e902ccc15f608cd54d98bf1dd8664a3097afe5",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/RelationshipController.php",
+      "git_blob_sha": "4728d075edb71de1ef474c82cd99f7307a90bfc8",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/RelationshipRepository.php",
+      "git_blob_sha": "1314ef49577b1f59c96d38c8f2f26716e82e7fba",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/RelationshipService.php",
+      "git_blob_sha": "56d140fb83844b7390edf61b4a142bb4e676acee",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/ThreadController.php",
+      "git_blob_sha": "07b0a7092e2c127baf34ea54cb790f084ab15cca",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Social/ThreadService.php",
+      "git_blob_sha": "dd4e0e96b0943ecec591d39589ef0079ad602ea3",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/Url/UrlController.php",
+      "git_blob_sha": "ec1b6d01c310300e5b196d7fcf7fd2cb4cc1ca1e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/User/GameRole.php",
+      "git_blob_sha": "50f541f3afd5928b5dee41d60e659247361ba69d",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/User/UserController.php",
+      "git_blob_sha": "18425e7b2c333d194eb8b9c7f77b289398693963",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/User/UserRepository.php",
+      "git_blob_sha": "003a65c9d3a925da2f015344485f8306faeec32f",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/User/UserService.php",
+      "git_blob_sha": "ad8d1c115e3cf3201af7d765c66452608fb3eb8e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/V71/AuthService.php",
+      "git_blob_sha": "aa886818536e4e8059b115e1adeff8a29ef1851b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/V71/DatabaseBridge.php",
+      "git_blob_sha": "9f8bae5c90cc74176620fc7112041ba7ae8f0a69",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/V71/Request.php",
+      "git_blob_sha": "8ef95d225d817e54ca5fc2c963c387502ee81269",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/V71/SchemaInspector.php",
+      "git_blob_sha": "d05e9a6c7497ee370531597f0d518649281afd07",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "src/V71/V71Application.php",
+      "git_blob_sha": "b00d02871eda47029ba0267d45a393d224aafaf6",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-audio-integration.php",
+      "git_blob_sha": "ccc57e1e6d2554db6cd5224ad2844540033a248e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-case-actions-integration.php",
+      "git_blob_sha": "4444fee330becc868231302d562b8d04247f8aea",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-level-integration.php",
+      "git_blob_sha": "bec04e76ca3cea4e7c6cfe833411718206a2012b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-moderation-queue-integration.php",
+      "git_blob_sha": "9b43a620ccefa87c1928ba00dccb954fdba3577e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-report-queue-integration.php",
+      "git_blob_sha": "561076d981a039677b7a8352dfdb8e8116c59e81",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-sanctions-utilities-integration.php",
+      "git_blob_sha": "1de8f25c2990fbd0aac6bb2c8c88ef5b820e6de2",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-social-integration.php",
+      "git_blob_sha": "09f073750606154945f021861b1c3bd7d81dfaee",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-song-usage-integration.php",
+      "git_blob_sha": "9ec0d89d0ee7d06f8f024ff35d36fc99a83c3e4b",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/application/gd2209-thread-integration.php",
+      "git_blob_sha": "2fbee7975e08defb0245622b6c15ec436588f3cc",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/protocol/gd2209-comment-timestamps.php",
+      "git_blob_sha": "6f0eaa9978a24e630c1430609e2d98b5466d7f34",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/protocol/gd2209-level-time.php",
+      "git_blob_sha": "e3ced68a43de955d171da600af7646eb5681bd6e",
+      "modified_for_packaging": false
+    },
+    {
+      "path": "tests/protocol/gd2209-thread-wire.php",
+      "git_blob_sha": "4b8dafd4aa28b1f3c56964f3aea71d2f2938af6f",
+      "modified_for_packaging": false
+    }
+  ]
+}

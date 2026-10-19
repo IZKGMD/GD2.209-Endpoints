@@ -2,6 +2,21 @@
 
 **This is a PRIVATE repository for compatibility testing.**
 
+## PHP endpoint implementation
+
+The actual MuchoCore server code is now included under [`server/`](server/):
+
+- [52 PHP endpoint files](server/public/database/)
+- [Endpoint-to-controller map](server/ENDPOINTS.md)
+- [Controllers and services](server/src/)
+- [Database schema and migrations](server/database/)
+- [Setup and validation](server/README.md)
+
+This is a pinned source import from `IZKGMD/GMDmucho-core` commit
+`856a864745462ceac687d8963ebb1a7ed82e4002`. The copied server logic keeps its
+authentication, permission checks and database operations. PHP entrypoint
+files forward requests through the included MuchoCore front controller.
+
 ## Endpoint research (GD 2.209)
 
 The previously prepared endpoint research is now tracked in this repository:
@@ -13,8 +28,9 @@ The previously prepared endpoint research is now tracked in this repository:
 
 These files were imported from `GD-2.209-Reversed.zip` prepared on 2026-10-18.
 The routing counts in that inventory describe its dated MuchoCore snapshot.
-This is a protocol research catalog; it does not contain PHP server handlers
-or a completed game decompilation. The large game archive described below
+The research directory contains the protocol catalog and analysis tools.
+The PHP server handlers are in [`server/`](server/). A completed game
+decompilation is not included. The large game archive described below
 is a separate deliverable and is still not uploaded.
 
 Offline scanner checks:

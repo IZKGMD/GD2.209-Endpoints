@@ -1,0 +1,43 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    <<<'SQL'
+CREATE TABLE profiles (
+    user_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    account_id BIGINT UNSIGNED NOT NULL,
+
+    stars INT UNSIGNED NOT NULL DEFAULT 0,
+    moons INT UNSIGNED NOT NULL DEFAULT 0,
+    diamonds INT UNSIGNED NOT NULL DEFAULT 0,
+
+    secret_coins INT UNSIGNED NOT NULL DEFAULT 0,
+    user_coins INT UNSIGNED NOT NULL DEFAULT 0,
+
+    demons INT UNSIGNED NOT NULL DEFAULT 0,
+    creator_points INT UNSIGNED NOT NULL DEFAULT 0,
+
+    icon_id INT UNSIGNED NOT NULL DEFAULT 1,
+    icon_type SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+
+    color1 SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+    color2 SMALLINT UNSIGNED NOT NULL DEFAULT 3,
+
+    glow TINYINT(1) NOT NULL DEFAULT 0,
+
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL
+        DEFAULT CURRENT_TIMESTAMP
+        ON UPDATE CURRENT_TIMESTAMP,
+
+    PRIMARY KEY (user_id),
+    UNIQUE KEY uq_profiles_account (account_id),
+
+    CONSTRAINT fk_profiles_account
+        FOREIGN KEY (account_id)
+        REFERENCES accounts(account_id)
+        ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+SQL,
+];

@@ -1,0 +1,524 @@
+{
+  "source_repository": "IZKGMD/GMDmucho-core",
+  "source_commit": "856a864745462ceac687d8963ebb1a7ed82e4002",
+  "total_count": 52,
+  "note": "These are MuchoCore server implementations. Native client wire parity varies by endpoint; route availability is not native compatibility certification.",
+  "endpoints": [
+    {
+      "name": "getGJEditorSounds",
+      "endpoint": "/database/getGJEditorSounds.php",
+      "entrypoint": "public/database/getGJEditorSounds.php",
+      "handler": "MuchoCore\\Music\\EditorSoundController::get",
+      "implementation": "src/Music/EditorSoundController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "uploadGJEditorSound",
+      "endpoint": "/database/uploadGJEditorSound.php",
+      "entrypoint": "public/database/uploadGJEditorSound.php",
+      "handler": "MuchoCore\\Music\\EditorSoundController::upload",
+      "implementation": "src/Music/EditorSoundController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "downloadGJEditorSound",
+      "endpoint": "/database/downloadGJEditorSound.php",
+      "entrypoint": "public/database/downloadGJEditorSound.php",
+      "handler": "MuchoCore\\Music\\EditorSoundController::download",
+      "implementation": "src/Music/EditorSoundController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "deleteGJEditorSound",
+      "endpoint": "/database/deleteGJEditorSound.php",
+      "entrypoint": "public/database/deleteGJEditorSound.php",
+      "handler": "MuchoCore\\Music\\EditorSoundController::delete",
+      "implementation": "src/Music/EditorSoundController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "updateGJSoundDesc",
+      "endpoint": "/database/updateGJSoundDesc.php",
+      "entrypoint": "public/database/updateGJSoundDesc.php",
+      "handler": "MuchoCore\\Music\\EditorSoundController::updateDescription",
+      "implementation": "src/Music/EditorSoundController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJLevelControls",
+      "endpoint": "/database/getGJLevelControls.php",
+      "entrypoint": "public/database/getGJLevelControls.php",
+      "handler": "MuchoCore\\Level\\LevelTelemetryController::getControls",
+      "implementation": "src/Level/LevelTelemetryController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "uploadGJLevelControls",
+      "endpoint": "/database/uploadGJLevelControls.php",
+      "entrypoint": "public/database/uploadGJLevelControls.php",
+      "handler": "MuchoCore\\Level\\LevelTelemetryController::uploadControls",
+      "implementation": "src/Level/LevelTelemetryController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "deleteGJLevelControls",
+      "endpoint": "/database/deleteGJLevelControls.php",
+      "entrypoint": "public/database/deleteGJLevelControls.php",
+      "handler": "MuchoCore\\Level\\LevelTelemetryController::deleteControls",
+      "implementation": "src/Level/LevelTelemetryController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJDeathData",
+      "endpoint": "/database/getGJDeathData.php",
+      "entrypoint": "public/database/getGJDeathData.php",
+      "handler": "MuchoCore\\Level\\LevelTelemetryController::getDeaths",
+      "implementation": "src/Level/LevelTelemetryController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "uploadGJDeathData",
+      "endpoint": "/database/uploadGJDeathData.php",
+      "entrypoint": "public/database/uploadGJDeathData.php",
+      "handler": "MuchoCore\\Level\\LevelTelemetryController::uploadDeath",
+      "implementation": "src/Level/LevelTelemetryController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJThreads",
+      "endpoint": "/database/getGJThreads.php",
+      "entrypoint": "public/database/getGJThreads.php",
+      "handler": "MuchoCore\\Social\\ThreadController::getThreads",
+      "implementation": "src/Social/ThreadController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJThreadMessages",
+      "endpoint": "/database/getGJThreadMessages.php",
+      "entrypoint": "public/database/getGJThreadMessages.php",
+      "handler": "MuchoCore\\Social\\ThreadController::getMessages",
+      "implementation": "src/Social/ThreadController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJThreadMembers",
+      "endpoint": "/database/getGJThreadMembers.php",
+      "entrypoint": "public/database/getGJThreadMembers.php",
+      "handler": "MuchoCore\\Social\\ThreadController::getMembers",
+      "implementation": "src/Social/ThreadController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJThreadInvites",
+      "endpoint": "/database/getGJThreadInvites.php",
+      "entrypoint": "public/database/getGJThreadInvites.php",
+      "handler": "MuchoCore\\Social\\ThreadController::getInvites",
+      "implementation": "src/Social/ThreadController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "sendGJThreadMessage",
+      "endpoint": "/database/sendGJThreadMessage.php",
+      "entrypoint": "public/database/sendGJThreadMessage.php",
+      "handler": "MuchoCore\\Social\\ThreadController::send",
+      "implementation": "src/Social/ThreadController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "updateGJThread",
+      "endpoint": "/database/updateGJThread.php",
+      "entrypoint": "public/database/updateGJThread.php",
+      "handler": "MuchoCore\\Social\\ThreadController::update",
+      "implementation": "src/Social/ThreadController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "searchGJThreadMessages",
+      "endpoint": "/database/searchGJThreadMessages.php",
+      "entrypoint": "public/database/searchGJThreadMessages.php",
+      "handler": "MuchoCore\\Social\\ThreadController::search",
+      "implementation": "src/Social/ThreadController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "claimGJNotificationReward",
+      "endpoint": "/database/claimGJNotificationReward.php",
+      "entrypoint": "public/database/claimGJNotificationReward.php",
+      "handler": "MuchoCore\\Social\\NotificationController::claim",
+      "implementation": "src/Social/NotificationController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJNotifications",
+      "endpoint": "/database/getGJNotifications.php",
+      "entrypoint": "public/database/getGJNotifications.php",
+      "handler": "MuchoCore\\Social\\NotificationController::get",
+      "implementation": "src/Social/NotificationController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "muteGJUser",
+      "endpoint": "/database/muteGJUser.php",
+      "entrypoint": "public/database/muteGJUser.php",
+      "handler": "MuchoCore\\Social\\FollowingController::mute",
+      "implementation": "src/Social/FollowingController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "reportGJContent",
+      "endpoint": "/database/reportGJContent.php",
+      "entrypoint": "public/database/reportGJContent.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209CaseController::reportContent",
+      "implementation": "src/Moderation/Gd2209CaseController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "followGJUser",
+      "endpoint": "/database/followGJUser.php",
+      "entrypoint": "public/database/followGJUser.php",
+      "handler": "MuchoCore\\Social\\FollowingController::follow",
+      "implementation": "src/Social/FollowingController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "unfollowGJUser",
+      "endpoint": "/database/unfollowGJUser.php",
+      "entrypoint": "public/database/unfollowGJUser.php",
+      "handler": "MuchoCore\\Social\\FollowingController::unfollow",
+      "implementation": "src/Social/FollowingController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJFollowing",
+      "endpoint": "/database/getGJFollowing.php",
+      "entrypoint": "public/database/getGJFollowing.php",
+      "handler": "MuchoCore\\Social\\FollowingController::get",
+      "implementation": "src/Social/FollowingController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "syncGJFollowing",
+      "endpoint": "/database/syncGJFollowing.php",
+      "entrypoint": "public/database/syncGJFollowing.php",
+      "handler": "MuchoCore\\Social\\FollowingController::sync",
+      "implementation": "src/Social/FollowingController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJSongUsage",
+      "endpoint": "/database/getGJSongUsage.php",
+      "entrypoint": "public/database/getGJSongUsage.php",
+      "handler": "MuchoCore\\Music\\SongUsageController::get",
+      "implementation": "src/Music/SongUsageController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJUserSearch",
+      "endpoint": "/database/getGJUserSearch.php",
+      "entrypoint": "public/database/getGJUserSearch.php",
+      "handler": "MuchoCore\\User\\UserController::search209",
+      "implementation": "src/User/UserController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJAudioFilesize",
+      "endpoint": "/database/getGJAudioFilesize.php",
+      "entrypoint": "public/database/getGJAudioFilesize.php",
+      "handler": "MuchoCore\\Compatibility\\Gd2209UtilityController::audioSize",
+      "implementation": "src/Compatibility/Gd2209UtilityController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "getGJContentStatus",
+      "endpoint": "/database/getGJContentStatus.php",
+      "entrypoint": "public/database/getGJContentStatus.php",
+      "handler": "MuchoCore\\Compatibility\\Gd2209UtilityController::contentStatus",
+      "implementation": "src/Compatibility/Gd2209UtilityController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "openedRegister",
+      "endpoint": "/database/openedRegister.php",
+      "entrypoint": "public/database/openedRegister.php",
+      "handler": "MuchoCore\\Compatibility\\Gd2209UtilityController::openedRegister",
+      "implementation": "src/Compatibility/Gd2209UtilityController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminGetUserHistory",
+      "endpoint": "/database/adminGetUserHistory.php",
+      "entrypoint": "public/database/adminGetUserHistory.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209CaseController::userHistory",
+      "implementation": "src/Moderation/Gd2209CaseController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminGetReportedContent",
+      "endpoint": "/database/adminGetReportedContent.php",
+      "entrypoint": "public/database/adminGetReportedContent.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209CaseController::reportedContent",
+      "implementation": "src/Moderation/Gd2209CaseController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminClearReportedContent",
+      "endpoint": "/database/adminClearReportedContent.php",
+      "entrypoint": "public/database/adminClearReportedContent.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209CaseController::clearReportedContent",
+      "implementation": "src/Moderation/Gd2209CaseController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminGetReportQueue",
+      "endpoint": "/database/adminGetReportQueue.php",
+      "entrypoint": "public/database/adminGetReportQueue.php",
+      "handler": "MuchoCore\\Moderation\\ReportQueueController::queue",
+      "implementation": "src/Moderation/ReportQueueController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminGetAbuseInfo",
+      "endpoint": "/database/adminGetAbuseInfo.php",
+      "entrypoint": "public/database/adminGetAbuseInfo.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209CaseController::abuseInfo",
+      "implementation": "src/Moderation/Gd2209CaseController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminGetAccountReview",
+      "endpoint": "/database/adminGetAccountReview.php",
+      "entrypoint": "public/database/adminGetAccountReview.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209CaseController::accountReview",
+      "implementation": "src/Moderation/Gd2209CaseController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminThreadAction",
+      "endpoint": "/database/adminThreadAction.php",
+      "entrypoint": "public/database/adminThreadAction.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209ContentActionController::threadAction",
+      "implementation": "src/Moderation/Gd2209ContentActionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminDeleteUserComments",
+      "endpoint": "/database/adminDeleteUserComments.php",
+      "entrypoint": "public/database/adminDeleteUserComments.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209ContentActionController::deleteUser",
+      "implementation": "src/Moderation/Gd2209ContentActionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminCommentBan",
+      "endpoint": "/database/adminCommentBan.php",
+      "entrypoint": "public/database/adminCommentBan.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "comment",
+        "enabled": true
+      }
+    },
+    {
+      "name": "adminUploadBan",
+      "endpoint": "/database/adminUploadBan.php",
+      "entrypoint": "public/database/adminUploadBan.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "upload",
+        "enabled": true
+      }
+    },
+    {
+      "name": "adminMessageBan",
+      "endpoint": "/database/adminMessageBan.php",
+      "entrypoint": "public/database/adminMessageBan.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "message",
+        "enabled": true
+      }
+    },
+    {
+      "name": "adminFreezeAccount",
+      "endpoint": "/database/adminFreezeAccount.php",
+      "entrypoint": "public/database/adminFreezeAccount.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "freeze",
+        "enabled": true
+      }
+    },
+    {
+      "name": "adminTrendingBan",
+      "endpoint": "/database/adminTrendingBan.php",
+      "entrypoint": "public/database/adminTrendingBan.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "trending",
+        "enabled": true
+      }
+    },
+    {
+      "name": "adminNameLock",
+      "endpoint": "/database/adminNameLock.php",
+      "entrypoint": "public/database/adminNameLock.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "name",
+        "enabled": true
+      }
+    },
+    {
+      "name": "adminCommentUnban",
+      "endpoint": "/database/adminCommentUnban.php",
+      "entrypoint": "public/database/adminCommentUnban.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "comment",
+        "enabled": false
+      }
+    },
+    {
+      "name": "adminUploadUnban",
+      "endpoint": "/database/adminUploadUnban.php",
+      "entrypoint": "public/database/adminUploadUnban.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "upload",
+        "enabled": false
+      }
+    },
+    {
+      "name": "adminCloseCase",
+      "endpoint": "/database/adminCloseCase.php",
+      "entrypoint": "public/database/adminCloseCase.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209CaseController::closeCase",
+      "implementation": "src/Moderation/Gd2209CaseController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    },
+    {
+      "name": "adminMessageUnban",
+      "endpoint": "/database/adminMessageUnban.php",
+      "entrypoint": "public/database/adminMessageUnban.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "message",
+        "enabled": false
+      }
+    },
+    {
+      "name": "adminUnfreezeAccount",
+      "endpoint": "/database/adminUnfreezeAccount.php",
+      "entrypoint": "public/database/adminUnfreezeAccount.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "freeze",
+        "enabled": false
+      }
+    },
+    {
+      "name": "adminTrendingUnban",
+      "endpoint": "/database/adminTrendingUnban.php",
+      "entrypoint": "public/database/adminTrendingUnban.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "trending",
+        "enabled": false
+      }
+    },
+    {
+      "name": "adminNameUnlock",
+      "endpoint": "/database/adminNameUnlock.php",
+      "entrypoint": "public/database/adminNameUnlock.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209SanctionController::apply",
+      "implementation": "src/Moderation/Gd2209SanctionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import",
+      "handler_arguments": {
+        "kind": "name",
+        "enabled": false
+      }
+    },
+    {
+      "name": "deleteGJComments",
+      "endpoint": "/database/deleteGJComments.php",
+      "entrypoint": "public/database/deleteGJComments.php",
+      "handler": "MuchoCore\\Moderation\\Gd2209ContentActionController::deleteOwn",
+      "implementation": "src/Moderation/Gd2209ContentActionController.php",
+      "router_state": "registered",
+      "native_wire": "not_certified_by_this_import"
+    }
+  ]
+}

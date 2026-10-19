@@ -1,0 +1,15 @@
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Real files and directories are served normally.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Permanent patched client downloads for players.
+RewriteRule ^clients/?$ clients.php [L]
+
+# All Geometry Dash compatibility routes go through the front controller.
+RewriteRule ^ index.php [QSA,L]

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "welcome-endpoint",
+      "name": "Welcome Endpoint",
+      "description": "Example extension that adds a small welcome route without editing MuchoCore.",
+      "version": "1.0.0",
+      "api": 1,
+      "min_core_version": "1.1.0",
+      "permissions": [
+        "routes",
+        "client_features"
+      ],
+      "source_url": "https://github.com/IZKGMD/GMDmucho-core/tree/main/examples/plugins/welcome-endpoint"
+    }
+  ]
+}
