@@ -1,7 +1,3 @@
-# MuchoCore · Geometry Dash 2.209 (Windows)
-
-**This is a PRIVATE repository for compatibility testing.**
-
 ## PHP endpoint implementation
 
 The actual MuchoCore server code is now included under [`server/`](server/):
